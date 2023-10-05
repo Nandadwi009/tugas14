@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>latihan DOM</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        body{
+            text-align: center;
+        }
+        .kotak{
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .Merah{
+            background-color: red;
+        }
+        .Hijau{
+            background-color: lightgreen;
+        }
+        .Biru{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>play with color</h1>
+    <button type="button" id="tUbahWarna">UbahWarna</button>
+     
+    <br><br>
+    <div class="kotak Merah"></div>
+    <input type="range" name="sliderMerah" min="0" max="255">
+
+    <div class="kotak Hijau"></div>
+    <input type="range" name="sliderHijau" min="0" max="255">
+
+    <div class="kotak Biru"></div>
+    <input type="range" name="sliderBiru" min="0" max="255">
+
+
+    <script src="script.js"></script>
+</body>
+</html>
